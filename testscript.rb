@@ -10,7 +10,7 @@ class Testscript < Formula
   # depends_on "cmake" => :build
 
   def install
-    
+    bin.install "testscript"
   end
 
 end
